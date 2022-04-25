@@ -1,13 +1,16 @@
 <script>
 import MenuLateral from "@/components/MenuLateral.vue";
+import CabeCalho from "@/components/CabeCalho.vue";
+import PrinCipal from "@/components/PrinCipal.vue";
+import RoDape from "@/components/RoDape.vue";
 export default {
-  components: { MenuLateral },
+  components: { MenuLateral, CabeCalho, PrinCipal, RoDape },
 };
 </script>
 <template>
   <MenuLateral />
-  <header id="header">Cabeçalho</header>
-  <main id="content">Principal</main>
-  <footer id="footer">Rodapé</footer>
+  <CabeCalho />
+  <PrinCipal />
+  <RoDape />
 </template>
 <style></style>

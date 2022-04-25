@@ -41,3 +41,19 @@ body {
   padding: 20px;
   margin: 10px;
 }
+
+.blokead{
+  border: 2px solid rebeccapurple;
+  border-radius: 5px;
+  width: 500px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.blokead:hover{
+  border: 2px solid rgb(255, 38, 38);
+  border-radius: 5px;
+  width: 500px;
+  padding: 20px;
+  margin: 10px;
+}
