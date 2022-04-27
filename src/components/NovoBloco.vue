@@ -20,4 +20,4 @@ export default {
     </li>
   </ul>
  </article>
-</template>
+</template> 
