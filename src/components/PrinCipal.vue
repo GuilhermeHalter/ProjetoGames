@@ -1,15 +1,17 @@
 <script>
-export default {};
+import NovoBloco from "@/components/NovoBloco.vue";
+export default {
+  components: { NovoBloco },
+};
 </script>
 <template>
-   <main id="content">
-    <article class="block">ola mundo</article>
-    <article class="block">ola mundo</article>
-    <article class="block">ola mundo</article>
-    <article class="block">ola mundo</article>
-    <article class="block">ola mundo</article>
-    <article class="block">ola mundo</article>
-    <article class="blokead">ola mundo</article>
+  <main id="content">
+    <NovoBloco titulo="Bloco 1" :nomes="['guilherme', 'samuel']"/>
+    <NovoBloco />
+    <NovoBloco titulo="Urgente" :nomes="['guilherme', 'samuel']"/>
+    <NovoBloco />
+    <NovoBloco />
+    <NovoBloco class="blokead"/>
   </main>
 </template>
 <style></style>
