@@ -1,17 +1,14 @@
 <script>
 import NovoBloco from "@/components/NovoBloco.vue";
+import TexTo from "@/components/TexTo.vue";
 export default {
-  components: { NovoBloco },
+  components: { NovoBloco, TexTo},
 };
 </script>
 <template>
   <main id="content">
-    <NovoBloco titulo="Bloco 1" :nomes="['guilherme', 'samuel']"/>
     <NovoBloco />
-    <NovoBloco titulo="Urgente" :nomes="['guilherme', 'samuel']"/>
-    <NovoBloco />
-    <NovoBloco />
-    <NovoBloco class="blokead"/>
+    <TexTo />
   </main>
 </template>
 <style></style>

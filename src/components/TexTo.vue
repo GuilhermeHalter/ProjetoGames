@@ -2,8 +2,8 @@
 export default {}
 </script>
 <template>
-  <div class="text">
-    <h1>Bem-Vindo ao Manual Gamer</h1>
+  <div class="information">
+      <img src="@/assets/gamer.jpg" alt="">
   </div>
 </template> 
 <script></script>
