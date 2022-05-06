@@ -3,6 +3,7 @@ export default {};
 </script>
 <template>
   <header id="header">
+    <img class="logo" src="@/assets/LogoSite.png" alt="">
     <div class="opition">
       <a href="">Snes</a>
       <a href="">Nes</a>

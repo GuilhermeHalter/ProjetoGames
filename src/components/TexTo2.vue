@@ -2,8 +2,9 @@
 export default {}
 </script>
 <template>
-  <div class="information">
-    <div class="text1">
+  <div class="information2">
+    <img class="img2" src="@/assets/gamer.jpg" alt="">
+    <div class="text2">
       Olá jovem aventureiro seja bem vindo ao
       Manual Gamer um site sobre informações de jogos 
       ooooooooooooooooooooooooooooooooooooooooooooooo
@@ -13,7 +14,6 @@ export default {}
       ooooooooooooooooooooooooooooooooooooooooooooooo
       ooooooooooooooooooooooooooooooooooooooooooooooo
       </div>
-    <img class="img" src="@/assets/gamer.jpg" alt="">
   </div>
 </template> 
 <script></script>
