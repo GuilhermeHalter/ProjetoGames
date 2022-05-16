@@ -1,7 +1,3 @@
-@import url('http://fonts.cdnfonts.com/css/bugfast');
-
-
-
 body {
   margin: 0;
   height: 100vh;
@@ -42,12 +38,6 @@ a{
   font-size: 30px;
 }
 
-h1{
-  font-family: 'Bugfast', sans-serif;
-  font-size: 20px;
-}
-
-
 a:hover{
   color: rgb(255, 221, 70)
 }
@@ -83,7 +73,7 @@ a:hover{
 
 .logo{
   height: 70px;
-  margin-top: 5px;
+  margin-top: 12px;
   margin-left: 50px ;
 }
 
@@ -107,4 +97,27 @@ a:hover{
   display: flex;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.new-task{
+  height: 30px;
+  margin-left: 120px;
+  border: 2px solid #000000;
+  border-radius: 3px;
+  outline: none;
+  transition: 0.7s;
+}
+
+.new-task:focus{
+  width: 180px;
+  border-color: rgb(255, 0, 255);
+}
+
+button{
+  height: 36px;
+  width: 40px;
+}
+
+.barra{
+  display: inline-flex;
 }
