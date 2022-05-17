@@ -1,9 +1,9 @@
 <script>
-export default {}
+export default {};
 </script>
 <template>
   <div class="text">
-    <h1>Bem-Vindo ao Manual Gamer</h1>
+    <h2>Bem-Vindo ao Manual Gamer &#10031;</h2>
   </div>
-</template> 
+</template>
 <script></script>
