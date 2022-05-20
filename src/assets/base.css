@@ -24,9 +24,6 @@ body {
 }
 #content {
   grid-area: content;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  
   background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(221, 197, 243));
 }
 #footer {
@@ -40,7 +37,7 @@ a{
   margin-left: 70px;
   margin-top: 5px;
   color: rgb(223, 223, 223);
-  font-size: 30px;
+  font-size: 25px;
 }
 
 a:hover{
@@ -61,8 +58,11 @@ a:hover{
   font-size: 25px ;
   margin-right: 50px;
   display: inline-table;
-  align-items: center;
+  text-align: center;
   margin-top: 6%;
+  padding-top: 5px;
+  padding-right: 10px;
+  margin-left: 10px;
 }
 
 .img{
@@ -85,21 +85,24 @@ a:hover{
 .text1{
   font-size: 20px;
   text-align: center;
-  width: 125%;
+  width: 110%;
   margin: 0;
 }
 .information2{
+  width: 50%;
   font-size: 25px ;
   margin-right: 50px;
-  display: inline-flex;
-  align-items: center;
   margin-top: 6%;
+  margin-bottom: 5%;
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
 }
 
 .text2{
   font-size: 20px;
   text-align: center;
-  width: 125%;
+  height: 20px;
   margin: 0;
 }
 
@@ -123,8 +126,28 @@ button{
   width: 40px;
 }
 
+h2{
+  text-align: center;
+}
+
+.hh{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
 .barra{
   display: inline-flex;
+}
+
+.login{
+  margin-left: 20px;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.login:hover{
+  cursor: pointer;
+  color: rgb(31, 238, 193);
 }
 
 .elemento:before {content: '\201C';}
